@@ -6,10 +6,5 @@ To achieve this, I will be utilizing JupyterLab running on the Cloud in Skills N
 ## Dataset Used in this Assignment
 The dataset used in this assignment contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. The dataset was taken from here, and was slightly modified for the purposes of this course.
 
-## How to Access the Notebook
-I will be working on JupyterLab running on the Cloud in Skills Network Labs environment, and can access the notebook directly from this URL:
-https://labs.cognitiveclass.ai/login?redirect=/notebooks/Lab2/ML0101EN-Reg-Simple-Linear-Regression-Co2-py.ipynb
-Alternatively, I can also work on my local machine or any other environment of choice, by downloading the notebook from this link:
-
 ## Conclusion
 With the completion of this assignment, the Real Estate Investment Trust will have the necessary information to start investing in Residential real estate. I am excited to use my skills to help them make informed decisions and achieve their goals.
