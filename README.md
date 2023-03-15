@@ -18,15 +18,15 @@ The goal of this project is to predict house prices using various features such 
 ## Conclusion
 Through this project, I have successfully developed and evaluated various regression models to predict house prices using different features. By refining the model and applying polynomial transformations, I have achieved better R^2 values, which indicate improved prediction accuracy. Based on the R^2 scores obtained from the various models, we can observe the following:
 
-- Simple Linear Regression: The R^2 score for this model is relatively low, indicating that the single predictor does not provide a strong explanation for the variance in the dependent variable (price).
+- Simple Linear Regression: The R^2 score for this model is the lowest among all the models, indicating that the single predictor does not provide a strong explanation for the variance in the dependent variable (price).
 
 - Multiple Linear Regression: The R^2 score is higher compared to the Simple Linear Regression model, suggesting that using multiple features to predict the target variable results in a better fit and improved predictive performance.
 
-- Pipeline Model: This model's R^2 score is very close to the Multiple Linear Regression model, indicating that the use of feature scaling and preprocessing in the pipeline has not significantly affected the predictive performance.
+- Pipeline Model: This model's R^2 score is the highest among all the models, indicating that the use of feature scaling and preprocessing in the pipeline has significantly improved the predictive performance.
 
-- Ridge Regression: The R^2 score for Ridge Regression is lower than the Multiple Linear Regression model, which implies that the regularization term has not improved the model's performance on the test data.
+- Ridge Regression: The R^2 score for Ridge Regression is slightly lower than the Multiple Linear Regression model, which implies that the regularization term has not improved the model's performance on the test data.
 
-- Polynomial Ridge Regression: The R^2 score for this model is the highest among all the models. By transforming the data into higher-order polynomial features and using Ridge Regression, the model has achieved a better fit and predictive performance on the test data.
+- Polynomial Ridge Regression: The R^2 score for this model is higher than the Ridge Regression model but lower than the Pipeline Model. By transforming the data into higher-order polynomial features and using Ridge Regression, the model has achieved a better fit compared to Ridge Regression but not as good as the Pipeline Model.
 
 | Model  | R^2 Score |
 | ------------- | ------------- |
@@ -36,4 +36,4 @@ Through this project, I have successfully developed and evaluated various regres
 | Ridge Regression	  | 0.647876  |
 | Polynomial Ridge Regression	  | 0.700274  |
 
-In summary, the Polynomial Ridge Regression model has the highest R^2 score, indicating that it is the most successful in predicting the target variable (price) among the evaluated models. This suggests that incorporating polynomial features and regularization can help improve the performance of the model on the test dataset. However, it is essential to consider other factors, such as model complexity, interpretability, and training time, before selecting the best model for a specific application.
+In summary, the Pipeline Model has the highest R^2 score, indicating that it is the most successful in predicting the target variable (price) among the evaluated models. The use of feature scaling and preprocessing in the pipeline has significantly contributed to the improvement in performance. However, it is essential to consider other factors, such as model complexity, interpretability, and training time, before selecting the best model for a specific application.
