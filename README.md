@@ -1,10 +1,19 @@
-# Predicting Housing Prices for a Real Estate Investment Trust
-## Introduction
-In this assignment, I am a Data Analyst working for a Real Estate Investment Trust. The Trust has tasked me with determining the market price of a house given a set of features. My job is to analyze and predict housing prices using attributes or features such as square footage, number of bedrooms, number of floors, and so on.
-To achieve this, I will be utilizing JupyterLab running on the Cloud in Skills Network Labs environment. A template notebook has been provided for me to complete ten questions, with some hints given in the notebook.
+# Data Analysis with Python: House Sales in King County, USA
+## Repository Overview
+This repository provides a comprehensive data analysis on house sale prices in King County, which includes Seattle. The dataset contains information about houses sold between May 2014 and May 2015.
 
-## Dataset Used in this Assignment
-The dataset used in this assignment contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. The dataset was taken from here, and was slightly modified for the purposes of this course.
+The goal of this project is to predict house prices using various features such as the number of bedrooms, bathrooms, square footage, and other variables.
+
+## Phases
+- Importing Data Sets: In this phase, we import the necessary libraries and load the dataset from the provided CSV file. We also display the first few rows of the dataset and check the data types of each column.
+
+- Data Wrangling: During this phase, we clean and preprocess the data by dropping unnecessary columns, handling missing values, and replacing them with mean values of the respective columns.
+
+- Exploratory Data Analysis: In this phase, we analyze the dataset by generating various visualizations like box plots and regression plots to understand the correlations between different features and the target variable, price.
+
+- Model Development: In this phase, we develop various regression models using features identified during the exploratory data analysis. We create linear regression models and a pipeline to predict house prices and calculate the R^2 values for each model.
+
+- Model Evaluation and Refinement: In the final phase, we evaluate the performance of our models by splitting the dataset into training and testing sets. We use Ridge regression and apply polynomial transformations to improve the performance of our models.
 
 ## Conclusion
-With the completion of this assignment, the Real Estate Investment Trust will have the necessary information to start investing in Residential real estate. I am excited to use my skills to help them make informed decisions and achieve their goals.
+Through this project, we have successfully developed and evaluated various regression models to predict house prices using different features. By refining our models and applying polynomial transformations, we have achieved better R^2 values, which indicate improved prediction accuracy.
