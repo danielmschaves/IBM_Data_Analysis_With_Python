@@ -5,7 +5,7 @@ This repository provides a comprehensive data analysis on house sale prices in K
 The goal of this project is to predict house prices using various features such as the number of bedrooms, bathrooms, square footage, and other variables.
 
 ## Phases
-- Importing Data Sets: In this phase, I imported the necessary libraries and load the dataset from the provided CSV file. I also displayed the first few rows of the dataset and checked the data types of each column.
+- Importing Data Sets: In this phase, I imported the necessary libraries and loaded the dataset from the provided CSV file. I also displayed the first few rows of the dataset and checked the data types of each column.
 
 - Data Wrangling: During this phase, I cleaned and preprocessed the data by dropping unnecessary columns, handling missing values, and replacing them with mean values of the respective columns.
 
@@ -13,7 +13,7 @@ The goal of this project is to predict house prices using various features such 
 
 - Model Development: In this phase, I developed various regression models using features identified during the exploratory data analysis. I created linear regression models and a pipeline to predict house prices and calculate the R^2 values for each model.
 
-- Model Evaluation and Refinement: In the final phase, I evaluated the performance of our models by splitting the dataset into training and testing sets. I used Ridge regression and apply polynomial transformations to improve the performance of our models.
+- Model Evaluation and Refinement: In the final phase, I evaluated the performance of our models by splitting the dataset into training and testing sets. I used Ridge regression and applied polynomial transformations to improve the performance of our models.
 
 ## Conclusion
 Through this project, I have successfully developed and evaluated various regression models to predict house prices using different features. By refining the model and applying polynomial transformations, I have achieved better R^2 values, which indicate improved prediction accuracy. Based on the R^2 scores obtained from the various models, we can observe the following:
@@ -25,6 +25,7 @@ Through this project, I have successfully developed and evaluated various regres
 - Pipeline Model: This model's R^2 score is the highest among all the models, indicating that the use of feature scaling and preprocessing in the pipeline has significantly improved the predictive performance.
 
 - Ridge Regression: The R^2 score for Ridge Regression is slightly lower than the Multiple Linear Regression model, which implies that the regularization term has not improved the model's performance on the test data.
+
 
 - Polynomial Ridge Regression: The R^2 score for this model is higher than the Ridge Regression model but lower than the Pipeline Model. By transforming the data into higher-order polynomial features and using Ridge Regression, the model has achieved a better fit compared to Ridge Regression but not as good as the Pipeline Model.
 
